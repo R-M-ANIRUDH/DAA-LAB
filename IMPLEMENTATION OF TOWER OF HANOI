@@ -1,5 +1,5 @@
 #include<stdio.h>
-void toh(int diskcount,char S,char D,chat T){
+void toh(int diskcount,char S,char D,char T){
     if(diskcount==1)
     {
         printf("\n move disk %d from %c to %c",diskcount,S,D);
