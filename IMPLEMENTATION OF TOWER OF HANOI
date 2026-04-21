@@ -1,0 +1,19 @@
+#include<stdio.h>
+void toh(int diskcount,char S,char D,chat T){
+    if(diskcount==1)
+    {
+        printf("\n move disk %d from %c to %c",diskcount,S,D);
+        return;
+    }
+    toh(diskcount-1,T,D,S);
+}
+
+int main(){
+    int n;
+    printf("Enter the number of disks:");
+    scanf("%d",&n);
+    toh(n,'S','D','T',);
+    return 0;
+
+}
+
